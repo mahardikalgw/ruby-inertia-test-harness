@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "inertia-test-harness": {
-      "source": "mahardikalgw/inertia-test-harness",
+      "source": "mahardikalgw/ruby-inertia-test-harness",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/inertia-test-harness.git
-ln -s "$PWD/inertia-test-harness" .claude/skills/inertia-test-harness
+git clone git@github.com:mahardikalgw/ruby-inertia-test-harness.git
+ln -s "$PWD/ruby-inertia-test-harness" .claude/skills/inertia-test-harness
 ```
 
 ## When to activate
@@ -39,10 +39,11 @@ ln -s "$PWD/inertia-test-harness" .claude/skills/inertia-test-harness
 ## What's inside
 
 ```
-inertia-test-harness/
+ruby-inertia-test-harness/
   SKILL.md
   assets/support/domain_data.rb
   assets/support/session_test_helper.rb
+  bin/check-skill
   references/builders.md
   references/integration.md
   references/system-tests.md
@@ -63,9 +64,9 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`inertia-vertical-slice`](https://github.com/mahardikalgw/inertia-vertical-slice) — route → skinny controller → query/service → typed props → Inertia page → test
-- [`scoped-authorization`](https://github.com/mahardikalgw/scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
-- [`rag-knowledge-loop`](https://github.com/mahardikalgw/rag-knowledge-loop) — approved corpus, fused retrieval, reply guardrails, offline test doubles
+- [`inertia-vertical-slice`](https://github.com/mahardikalgw/ruby-inertia-vertical-slice) — route → skinny controller → query/service → typed props → Inertia page → test
+- [`scoped-authorization`](https://github.com/mahardikalgw/ruby-scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
+- [`rag-knowledge-loop`](https://github.com/mahardikalgw/ruby-rag-knowledge-loop) — approved corpus, fused retrieval, reply guardrails, offline test doubles
 
 ## Licence
 
